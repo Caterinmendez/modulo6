@@ -1,0 +1,68 @@
+individual_1 Caterin Méndez
+Respuestas:
+
+Identifique qué paquetes se descargan automáticamente. Investigue la utilidad que tienen estos paquetes.
+-"pip" es el sistema de gestión de paquetes para python y se utiliza para instalar y administrar paquetes 
+y bibliotecas de terceros en su entorno virtual. 
+Dentro de un entorno virtual se puede utilizar pip para instalar una variedad de paquetes 
+y bibliotecas según sus necesidades. Estos paquetes pueden abarcar desde marcos de desarrollo 
+como Django y Flask, hasta bibliotecas científicas como NumPy y pandas, o prácticamente cualquier 
+otra biblioteca de Python creada por la comunidad.
+
+Los paquetes descargados e instalados con pip son esenciales para el desarrollo en Python, 
+ya que le permiten agregar funcionalidad a sus proyectos sin tener que escribir todo desde cero. 
+Algunos ejemplos de utilidad de los paquetes incluyen:
+
+Django : Un marco de desarrollo web de alto nivel que facilita la creación de aplicaciones web 
+complejas y escalables. Herramientas proporcionadas para la administración de bases de datos, 
+el manejo de rutas, la autenticación y muchas otras características esenciales para el desarrollo web.
+
+Flask : Otro marco de desarrollo web, pero más minimalista en comparación con Django. 
+Flask es extremadamente flexible y se adapta bien a proyectos pequeños y medianos.
+
+NumPy : Una biblioteca fundamental para computación numérica en Python. Proporciona 
+estructuras de datos como arrays multidimensionales y funciones para realizar operaciones 
+matemáticas y estadísticas eficientes en estos arrays.
+
+pandas : Una biblioteca para análisis de datos y manejo de datos tabulares en Python. 
+Ofrece estructuras de datos como DataFrames que facilitan la importación, limpieza y análisis de datos.
+
+matplotlib y seaborn : Bibliotecas para trazar gráficos y visualizaciones en Python.
+
+
+Indague en la página web principal de Django: https://www.djangoproject.com/
+¿Qué facilidades nos proporciona Django?
+Django fue diseñado para ayudar a los desarrolladores a llevar las 
+aplicaciones desde el concepto hasta su finalización lo más rápido posible.
+
+Django se toma la seguridad en serio y ayuda a los desarrolladores a evitar muchos 
+errores de seguridad comunes.
+
+Algunos de los sitios más concurridos de la web aprovechan la capacidad de 
+Django para escalar de forma rápida y flexible.
+
+
+Con relación al levantamiento de un servidor. 
+* ¿Existe una forma de realizarlo con Python y sin Django?
+    si se hace de la siguiente manera:
+    ->  python -m http.server
+     se debe abrir : http://localhost:8000/
+     y pse debe crear un : index.html
+     para poder agregar el mensaje 
+
+* ¿Qué desventajas nos trae este tipo de proyectos sin Django?
+
+1.- Falta de estructura : Sin un marco, la organización del proyecto puede ser caótica y menos comprensible.
+2.- Mayor complejidad : Necesitarás construir muchas funcionalidades desde cero, lo que puede resultar en más errores y dificultades.
+3.- Riesgos de seguridad : Los marcos ofrecen medidas de seguridad incorporadas, mientras que sin ellos, 
+    deben implementar su propia seguridad.
+4.- Falta de características avanzadas : No tendrá acceso a las características avanzadas preconstruidas que ofrecen los marcos.
+5.- Mantenimiento desafiando : Sin un marco, el mantenimiento se vuelve más complicado a medida que el proyecto crece.
+6.- Menor eficiencia en desarrollo : Desarrollar características básicas puede llevar más tiempo sin las soluciones 
+    predefinidas de un marco.
+7.- Menor escalabilidad : Los marcos promueven prácticas escalables que pueden faltar en proyectos sin marcos.
+8.- Menos soporte : Sin un marco, podría carecer de la comunidad y la documentación que ofrecen los marcos.
+
+En resumen, utilice un marco como Django supera estas desventajas y facilita el proceso de desarrollo de aplicaciones web.
+
+
