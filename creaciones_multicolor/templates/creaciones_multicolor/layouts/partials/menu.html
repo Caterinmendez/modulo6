@@ -1,0 +1,76 @@
+{% load static %}
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <img class="imagen_icono" src="{% static 'img\icono.png'%}" >
+      <img class="texto-icono" src="{% static 'img\textoicono-sinfondo.png'%}" style="width: 80px;" >
+        <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"> 
+            <!--pagina de inicio-->
+            <a class="nav-link active" aria-current="page" href="{% url 'index' %}">bienvenid@</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'usuarios' %}">Usuarios</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nuestros Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Día de la Madre</a></li>
+              <li><a class="dropdown-item" href="#">Día del Padre</a></li>
+              <li><a class="dropdown-item" href="#">Pascua de Resurreción</a></li>
+              <li><a class="dropdown-item" href="#">Primera Comunión</a></li>
+              <li><a class="dropdown-item" href="#">Primera Comunión</a></li>
+              <li><a class="dropdown-item" href="#">Cuadros de Nacimiento</a></li>
+              <li><a class="dropdown-item" href="#">Velas Personalizadas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Libros</a></li>
+              <li><a class="dropdown-item" href="#">Stickers Escolares Personalizables</a></li>
+              <li><a class="dropdown-item" href="#">Agendas</a></li>
+              <li><a class="dropdown-item" href="#">Ayuda Memoria (multiplicaciónes)</a></li>
+              <li><a class="dropdown-item" href="#">Kit de Inicio Escolar</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Tarjetas de Presentación</a></li>
+              <li><a class="dropdown-item" href="#">Art. Públicitarios</a></li>
+              <li><a class="dropdown-item" href="#">Planner</a></li>
+              <li><a class="dropdown-item" href="#">Tarjetas PVC</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Estampados</a></li>
+              <li><a class="dropdown-item" href="#">Adesivos</a></li>
+              <li><a class="dropdown-item" href="#">Chapitas</a></li>
+              <li><a class="dropdown-item" href="#">Llaveros con Fotografia</a></li>
+              <li><a class="dropdown-item" href="#">Tazones Fluorescentes "brillan en la Oscuridad"</a></li>
+              <li><a class="dropdown-item" href="#">Calendarios</a></li> <!--integrar magneticos y de cartulina gruesa y con imagenes-->
+              <li><a class="dropdown-item" href="#">Esferas Personalizadas</a></li>
+              <li><a class="dropdown-item" href="#">Cajas Personalizadas</a></li>
+              <li><a class="dropdown-item" href="#">Raspes</a></li>
+              <li><a class="dropdown-item" href="#">Alcancias</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              
+
+              <li><hr class="dropdown-divider"></li>
+              <li><h3>Complementa Tu Regalo</h3></li>
+              <li><a class="dropdown-item" href="#">Bubba</a></li>
+              <li><a class="dropdown-item" href="#">Charms</a></li>
+
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Encuentra tu regalo" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>  
+  </div>
+</nav>
